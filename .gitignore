@@ -19,6 +19,8 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+test_logger.py
+.pypirc
 
 # Virtual Environment
 venv/

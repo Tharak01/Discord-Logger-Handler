@@ -5,7 +5,7 @@ A simple, flexible Discord logging package that sends logs to Discord channels v
 ## Installation
 
 ```bash
-pip install discord-logger
+pip install discord-logger-handler
 ```
 
 ## Quick Start
@@ -52,15 +52,6 @@ The logger can be configured with the following parameters:
 ```python
 logger = DiscordLogger("webhook_url", "MyApp")
 logger.info("User logged in", user_id="123", ip="192.168.1.1")
-```
-
-### With Context
-
-```python
-with logger.operation_context("database_backup"):
-    # Perform backup operations
-    # Will automatically log start and completion/error
-    perform_backup()
 ```
 
 ## Contributing
