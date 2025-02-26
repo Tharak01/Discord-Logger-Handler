@@ -11,7 +11,7 @@ pip install discord-logger-handler
 ## Quick Start
 
 ```python
-from discord_logger import DiscordLogger
+from discrd_logger import DiscordLogger
 
 # Initialize the logger
 logger = DiscordLogger(
